@@ -27,18 +27,18 @@ En este proyecto hemos hecho uso de:
 ***
 He descargado de la página oficial de MongoDB la última versión 5.0.3 y he procedido a su instalación junto con la shell de MongoDB Compass.
 ```
-$ Instalaremos MongoDB junto con MongoDB Compass en la misma instalación.
-$ Para verificar la instalación  de MongoDB, nos vamos a adentrar en la ruta en que se encuentra su carpeta.
-$ Una vez, vista su ruta vamos a editar las variables de entorno, concretamente editaremos el PATH, borrando en el caso de que huebiera una versión antigua de Mongo y añadiendo la nueva ruta en que se encuentra ahora la nueva versión de MongoDB.
-$ Para que no nos pille desprevenidos, vamos a entrar en los Servicios de Windows para verificar que MongoDB está ejecutándose. En el caso de que no fuera así habilitaremos el servicio para que podamos trabajar con el entorno.
+* Instalaremos MongoDB junto con MongoDB Compass en la misma instalación.
+* Para verificar la instalación  de MongoDB, nos vamos a adentrar en la ruta en que se encuentra su carpeta.
+* Una vez, vista su ruta vamos a editar las variables de entorno, concretamente editaremos el PATH, borrando en el caso de que huebiera una versión antigua de Mongo y añadiendo la nueva ruta en que se encuentra ahora la nueva versión de MongoDB.
+* Para que no nos pille desprevenidos, vamos a entrar en los Servicios de Windows para verificar que MongoDB está ejecutándose. En el caso de que no fuera así habilitaremos el servicio para que podamos trabajar con el entorno.
 ```
 ## Visual Studio Code
 ***
 > Este nuevo programa nos va a servir tanto para visualizar las diferentes pruebas que hagamos con los comando que insertemos, como ver los resultados con el terminal que nos proporciona.
 > Para ello he creado un nuevo proyecto llamado PROYECTO_PARTICULAR en el que vamos a añadir tres ficheros:
-> insertar.js : En este fichero añadiremos una serie de documentos (con sus campos y valores) mediante los comandos insertOne y insertMany. Y esos documentos serán borrados mediante el comando deleteMany.
-> probamos.js: En este otro fichero haremos las diferentes pruebas que se requieran insertando y eliminando documentos si se precisa.
-> consultamos.js: En este último fichero vamos a definir la diversidad de comando que vamos a usar en este proyecto, como por ejemplo, yo he usado .find(filtra por un cierto campo) y el operador equals (compara todos los documentos y devuelve aquellos que se le hayan pasado como condición).
+* insertar.js : En este fichero añadiremos una serie de documentos (con sus campos y valores) mediante los comandos insertOne y insertMany. Y esos documentos serán borrados mediante el comando deleteMany.
+* probamos.js: En este otro fichero haremos las diferentes pruebas que se requieran insertando y eliminando documentos si se precisa.
+* consultamos.js: En este último fichero vamos a definir la diversidad de comando que vamos a usar en este proyecto, como por ejemplo, yo he usado .find(filtra por un cierto campo) y el operador equals (compara todos los documentos y devuelve aquellos que se le hayan pasado como condición).
 ## Terminal PowerShell
 ***
 Ahora voy a listar una serie de comando que he usado:
