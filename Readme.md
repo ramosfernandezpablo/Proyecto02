@@ -26,12 +26,11 @@ En este proyecto hemos hecho uso de:
 ## Instalación de los softwares MongoDB y MongoDB Compass:
 ***
 He descargado de la página oficial de MongoDB la última versión 5.0.3 y he procedido a su instalación junto con la shell de MongoDB Compass.
-```
 * Instalaremos MongoDB junto con MongoDB Compass en la misma instalación.
 * Para verificar la instalación  de MongoDB, nos vamos a adentrar en la ruta en que se encuentra su carpeta.
 * Una vez, vista su ruta vamos a editar las variables de entorno, concretamente editaremos el PATH, borrando en el caso de que huebiera una versión antigua de Mongo y añadiendo la nueva ruta en que se encuentra ahora la nueva versión de MongoDB.
 * Para que no nos pille desprevenidos, vamos a entrar en los Servicios de Windows para verificar que MongoDB está ejecutándose. En el caso de que no fuera así habilitaremos el servicio para que podamos trabajar con el entorno.
-```
+
 ## Visual Studio Code
 ***
 > Este nuevo programa nos va a servir tanto para visualizar las diferentes pruebas que hagamos con los comando que insertemos, como ver los resultados con el terminal que nos proporciona.
